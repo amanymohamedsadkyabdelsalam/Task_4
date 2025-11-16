@@ -1,0 +1,303 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+background-color: #FFFFFF;
+padding-top: 120px;
+}
+
+
+.head{
+padding: 20px 5%;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 20px;
+position: fixed;
+top: 0;
+left: 0;
+background-color: #fff;
+z-index: 999;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.logoImg{
+width: 170px;
+}
+
+.navigation ul{
+display: flex;
+gap: 40px;
+align-items: center;
+}
+
+.navigation ul li{
+list-style: none;
+}
+
+.navigation ul li a{
+text-decoration: none;
+color: black;
+font-size: 16px;
+}
+
+.Request{
+padding: 8px 16px;
+border-radius: 14px;
+border: 1px solid black;
+}
+
+
+#About{
+padding: 40px 5%;
+display: flex;
+gap: 70px;
+align-items: center;
+}
+
+.about{
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+
+.about h1{
+font-size: 48px;
+line-height: 1.1;
+}
+
+.about p{
+line-height: 1.4;
+}
+
+.but{
+background-color: black;
+color: white;
+border: none;
+border-radius: 10px;
+width: 240px;
+height: 60px;
+transition: 0.3s ease;
+cursor: pointer;
+}
+
+.but:hover{
+background-color: #333;
+transform: translateY(-3px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.img{
+width: 100%;
+max-width: 550px;
+}
+
+
+.ComLogo{
+display: flex;
+justify-content: space-between;
+padding: 60px 5%;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+
+.start{
+display: flex;
+align-items: center;
+gap: 30px;
+padding: 40px 5%;
+}
+
+.ser{
+background: #B9FF66;
+border: 1px solid #B9FF66;
+border-radius: 10px;
+padding: 15px 25px;
+}
+
+
+.serv{
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+padding: 40px 5%;
+}
+
+.serv1, .serv2, .serv3, .serv4, .serv5, .serv6{
+width: calc(50% - 20px);
+min-height: 280px;
+padding: 30px;
+border-radius: 25px;
+border: 1px solid black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.serv1, .serv4, .serv6{
+background: #F3F3F3;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.serv2, .serv5{
+background: #B9FF66;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.serv3{
+background: black;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.serv1 img,
+.serv2 img,
+.serv3 img,
+.serv4 img,
+.serv5 img,
+.serv6 img{
+width: 200px;
+height: 150px;
+}
+
+
+.h4, .h42 span, .h43 span, .h44 span, .h45 span, .h46 span{
+border-radius: 10px;
+font-size: 22px;
+display: inline-block;
+}
+
+
+.h4{
+background-color: #B9FF66;
+border: 1px solid #B9FF66;
+}
+
+.h42 span, .h43 span, .h45 span{
+background-color: #F3F3F3;
+border: 1px solid #F3F3F3;
+}
+
+.h44 span, .h46 span{
+background-color: #B9FF66;
+border: 1px solid #B9FF66;
+}
+
+
+.photo, .photo1, .photo2, .photo3, .photo4, .photo5{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.photo img, .photo1 img, .photo2 img, .photo3 img, .photo4 img, .photo5 img{
+width: 50px;
+height: 30px;
+}
+
+
+.photo p, .photo1 p, .photo3 p, .photo4 p, .photo5 p{
+color: black;
+font-size: 14px;
+}
+
+.photo2 p{
+color: white;
+font-size: 14px;
+}
+
+.se1 , .se2 , .se3 , .se4 ,.se5 ,.se6{
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+
+
+.happen{
+background-color: #F3F3F3;
+border-radius: 20px;
+width: 100%;
+padding: 50px;
+height: 500px;
+display: flex;
+gap: 70px;
+margin: 60px auto;
+}
+
+.hap{
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+
+.des{
+display: flex;
+gap: 50px;
+padding: 60px;
+}
+
+.des h2{
+background-color: #B9FF66;
+border: 1px solid #B9FF66;
+border-radius: 8px;
+}
+
+
+.cases{
+background: black;
+padding: 60px 5%;
+border-radius: 25px;
+display: flex;
+justify-content: space-between;
+gap: 40px;
+}
+
+.case{
+width: 30%;
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+
+.casep{
+color: white;
+line-height: 1.5;
+}
+
+.picon{
+display: flex;
+gap: 10px;
+align-items: center;
+}
+
+.p{
+color: #B9FF66;
+}
+
+.line{
+width: 2px;
+height: 210px;
+background: grey;
+opacity: 0.6;
+align-self: center;
+}
+
+
+@media(max-width: 900px){
+#About{ flex-direction: column; text-align: center; }
+.serv div{ width: 100%; }
+.cases{ flex-direction: column; }
+.line{ display: none; }
+.case{ width: 100%; }
+}
+
+@media(max-width: 600px){
+.head{ flex-direction: column; gap: 15px; }
+.navigation ul{ flex-direction: column; gap: 20px; }
+}
